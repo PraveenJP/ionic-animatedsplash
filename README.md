@@ -1,16 +1,27 @@
-# ionic-animatedsplash
-Create Animated Splash screen with ionic
+ionic-animatedsplash
+========================
+
+## Create Animated Splash screen with ionic
 
 Please follow the steps to test the ionic animated splash in your device.
 
-Step 1: git clone https://github.com/PraveenJP/ionic-animatedsplash.git
+First clone the project
 
-Step 2: Next path th project in command prompt
+```bash
+$ git clone https://github.com/PraveenJP/ionic-animatedsplash.git
+```
 
-Step 3: Type ionic serve -lab or ionic serve to test the app in browser
+Then test the app in browser
 
-Step 4: ionic platform add android
+```bash
+$ ionic serve -lab 
+```
 
-Step 5: ionic run android.
+Finally test the app in real device
+
+```bash
+$ ionic platform add android
+$ ionic run android.
+```
 
 Thats it. :) Enjoy with code.
